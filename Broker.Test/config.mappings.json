@@ -1,0 +1,226 @@
+[
+    {
+        "ControlPoint": "SAVE-CR-CASE",
+        "Operation": "PetitionAddUpdate",
+        "Fields": {
+            "fj_petn_cno": "/Integration/Case/CaseNumber",
+            "fj_petn_pdt": "/Integration/Case/FiledDate",
+            "fj_petn_sct": "/Integration/Case/CaseType",
+            "fj_petn_cpn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='COM']/CrossCaseNumber",
+            "fj_arrt_dcn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='DA']/CrossCaseNumber",
+            "fj_arrt_bnu": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='BOO']/CrossCaseNumber",
+            "fj_arrt_aoa": "/Integration/Case/Charge/BookingAgency/Agency",
+            "fj_arrt_arn": "/Integration/Case/Charge/BookingAgency/ControlNumber",
+            "fj_arrt_cdt": "/Integration/Case/Charge/BookingAgency/ArrestDate",
+            "fj_arrt_ctm": "/Integration/Case/Charge/BookingAgency/ArrestTime"
+        }
+    },
+    {
+        "ControlPoint": "SAVE-CR-CASE",
+        "Operation": "MinuteOrderAdd",
+        "Fields": {
+            "fj_petn_cno": "/Integration/Case/CaseNumber",
+            "fj_petn_pdt": "/Integration/Case/FiledDate",
+            "fj_petn_sct": "/Integration/Case/CaseType",
+            "fj_petn_cpn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='COM']/CrossCaseNumber",
+            "fj_arrt_dcn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='DA']/CrossCaseNumber",
+            "fj_arrt_bnu": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='BOO']/CrossCaseNumber",
+            "fj_arrt_aoa": "/Integration/Case/Charge/BookingAgency/Agency",
+            "fj_arrt_arn": "/Integration/Case/Charge/BookingAgency/ControlNumber",
+            "fj_arrt_cdt": "/Integration/Case/Charge/BookingAgency/ArrestDate",
+            "fj_arrt_ctm": "/Integration/Case/Charge/BookingAgency/ArrestTime"
+        }
+    },
+    {
+        "ControlPoint": "SAVE-CR-DISPOSITION",
+        "Operation": "AmendDAChargeDisposition",
+        "Fields": {
+            "fj_petn_cno": "/Integration/Case/CaseNumber",
+            "fj_petn_pdt": "/Integration/Case/FiledDate",
+            "fj_petn_sct": "/Integration/Case/CaseType",
+            "fj_petn_cpn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='COM']/CrossCaseNumber",
+            "fj_arrt_dcn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='DA']/CrossCaseNumber",
+            "fj_arrt_bnu": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='BOO']/CrossCaseNumber",
+            "fj_arrt_aoa": "/Integration/Case/Charge/BookingAgency/Agency",
+            "fj_arrt_arn": "/Integration/Case/Charge/BookingAgency/ControlNumber",
+            "fj_arrt_cdt": "/Integration/Case/Charge/BookingAgency/ArrestDate",
+            "fj_arrt_ctm": "/Integration/Case/Charge/BookingAgency/ArrestTime"
+        }
+    },
+    {
+        "ControlPoint": "SAVE-CR-EVENT",
+        "Operation": "COPSInitialEvent",
+        "Fields": {
+            "fj_petn_cno": "/Integration/Case/CaseNumber",
+            "fj_petn_pdt": "/Integration/Case/FiledDate",
+            "fj_petn_sct": "/Integration/Case/CaseType",
+            "fj_petn_cpn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='COM']/CrossCaseNumber",
+            "fj_arrt_dcn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='DA']/CrossCaseNumber",
+            "fj_arrt_bnu": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='BOO']/CrossCaseNumber",
+            "fj_arrt_aoa": "/Integration/Case/Charge/BookingAgency/Agency",
+            "fj_arrt_arn": "/Integration/Case/Charge/BookingAgency/ControlNumber",
+            "fj_arrt_cdt": "/Integration/Case/Charge/BookingAgency/ArrestDate",
+            "fj_arrt_ctm": "/Integration/Case/Charge/BookingAgency/ArrestTime"
+        }
+    },
+    {
+        "ControlPoint": "SAVE-CR-HEAR-CTS",
+        "Operation": "CalendarAddUpdate",
+        "Fields": {
+            "fj_petn_cno": "/Integration/Case/CaseNumber",
+            "fj_petn_pdt": "/Integration/Case/FiledDate",
+            "fj_petn_sct": "/Integration/Case/CaseType",
+            "fj_petn_cpn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='COM']/CrossCaseNumber",
+            "fj_arrt_dcn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='DA']/CrossCaseNumber",
+            "fj_arrt_bnu": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='BOO']/CrossCaseNumber",
+            "fj_arrt_aoa": "/Integration/Case/Charge/BookingAgency/Agency",
+            "fj_arrt_arn": "/Integration/Case/Charge/BookingAgency/ControlNumber",
+            "fj_arrt_cdt": "/Integration/Case/Charge/BookingAgency/ArrestDate",
+            "fj_arrt_ctm": "/Integration/Case/Charge/BookingAgency/ArrestTime"
+        }
+    },
+    {
+        "ControlPoint": "SAVE-CR-HEARING",
+        "Operation": "CompanionAddUpdate",
+        "Fields": {
+            "fj_petn_cno": "/Integration/Case/CaseNumber",
+            "fj_petn_pdt": "/Integration/Case/FiledDate",
+            "fj_petn_sct": "/Integration/Case/CaseType",
+            "fj_petn_cpn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='COM']/CrossCaseNumber",
+            "fj_arrt_dcn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='DA']/CrossCaseNumber",
+            "fj_arrt_bnu": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='BOO']/CrossCaseNumber",
+            "fj_arrt_aoa": "/Integration/Case/Charge/BookingAgency/Agency",
+            "fj_arrt_arn": "/Integration/Case/Charge/BookingAgency/ControlNumber",
+            "fj_arrt_cdt": "/Integration/Case/Charge/BookingAgency/ArrestDate",
+            "fj_arrt_ctm": "/Integration/Case/Charge/BookingAgency/ArrestTime"
+        }
+    },
+    {
+        "ControlPoint": "SAVE-CR-MINUTES",
+        "Operation": "MinuteOrderAdd",
+        "Fields": {
+            "fj_petn_cno": "/Integration/Case/CaseNumber",
+            "fj_petn_pdt": "/Integration/Case/FiledDate",
+            "fj_petn_sct": "/Integration/Case/CaseType",
+            "fj_petn_cpn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='COM']/CrossCaseNumber",
+            "fj_arrt_dcn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='DA']/CrossCaseNumber",
+            "fj_arrt_bnu": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='BOO']/CrossCaseNumber",
+            "fj_arrt_aoa": "/Integration/Case/Charge/BookingAgency/Agency",
+            "fj_arrt_arn": "/Integration/Case/Charge/BookingAgency/ControlNumber",
+            "fj_arrt_cdt": "/Integration/Case/Charge/BookingAgency/ArrestDate",
+            "fj_arrt_ctm": "/Integration/Case/Charge/BookingAgency/ArrestTime"
+        }
+    },
+   {
+        "ControlPoint": "SAVE-CR-MINUTES",
+        "Operation": "MinuteOrderUpdate",
+        "Fields": {
+            "fj_petn_cno": "/Integration/Case/CaseNumber",
+            "fj_petn_pdt": "/Integration/Case/FiledDate",
+            "fj_petn_sct": "/Integration/Case/CaseType",
+            "fj_petn_cpn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='COM']/CrossCaseNumber",
+            "fj_arrt_dcn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='DA']/CrossCaseNumber",
+            "fj_arrt_bnu": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='BOO']/CrossCaseNumber",
+            "fj_arrt_aoa": "/Integration/Case/Charge/BookingAgency/Agency",
+            "fj_arrt_arn": "/Integration/Case/Charge/BookingAgency/ControlNumber",
+            "fj_arrt_cdt": "/Integration/Case/Charge/BookingAgency/ArrestDate",
+            "fj_arrt_ctm": "/Integration/Case/Charge/BookingAgency/ArrestTime"
+        }
+    },
+    {
+        "ControlPoint": "SAVE-CR-MINUTES",
+        "Operation": "MinuteOrderProbationConditions",
+        "Fields": {
+            "fj_petn_cno": "/Integration/Case/CaseNumber",
+            "fj_petn_pdt": "/Integration/Case/FiledDate",
+            "fj_petn_sct": "/Integration/Case/CaseType",
+            "fj_petn_cpn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='COM']/CrossCaseNumber",
+            "fj_arrt_dcn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='DA']/CrossCaseNumber",
+            "fj_arrt_bnu": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='BOO']/CrossCaseNumber",
+            "fj_arrt_aoa": "/Integration/Case/Charge/BookingAgency/Agency",
+            "fj_arrt_arn": "/Integration/Case/Charge/BookingAgency/ControlNumber",
+            "fj_arrt_cdt": "/Integration/Case/Charge/BookingAgency/ArrestDate",
+            "fj_arrt_ctm": "/Integration/Case/Charge/BookingAgency/ArrestTime"
+        }
+    },
+    {
+        "ControlPoint": "SAVE-CR-PLEA",
+        "Operation": "CurrentConditionsOfProbation",
+        "Fields": {
+            "fj_petn_cno": "/Integration/Case/CaseNumber",
+            "fj_petn_pdt": "/Integration/Case/FiledDate",
+            "fj_petn_sct": "/Integration/Case/CaseType",
+            "fj_petn_cpn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='COM']/CrossCaseNumber",
+            "fj_arrt_dcn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='DA']/CrossCaseNumber",
+            "fj_arrt_bnu": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='BOO']/CrossCaseNumber",
+            "fj_arrt_aoa": "/Integration/Case/Charge/BookingAgency/Agency",
+            "fj_arrt_arn": "/Integration/Case/Charge/BookingAgency/ControlNumber",
+            "fj_arrt_cdt": "/Integration/Case/Charge/BookingAgency/ArrestDate",
+            "fj_arrt_ctm": "/Integration/Case/Charge/BookingAgency/ArrestTime"
+        }
+    },
+    {
+        "ControlPoint": "SAVE-CR-SENTENCE",
+        "Operation": "COPSInitialAllegations",
+        "Fields": {
+            "fj_petn_cno": "/Integration/Case/CaseNumber",
+            "fj_petn_pdt": "/Integration/Case/FiledDate",
+            "fj_petn_sct": "/Integration/Case/CaseType",
+            "fj_petn_cpn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='COM']/CrossCaseNumber",
+            "fj_arrt_dcn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='DA']/CrossCaseNumber",
+            "fj_arrt_bnu": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='BOO']/CrossCaseNumber",
+            "fj_arrt_aoa": "/Integration/Case/Charge/BookingAgency/Agency",
+            "fj_arrt_arn": "/Integration/Case/Charge/BookingAgency/ControlNumber",
+            "fj_arrt_cdt": "/Integration/Case/Charge/BookingAgency/ArrestDate",
+            "fj_arrt_ctm": "/Integration/Case/Charge/BookingAgency/ArrestTime"
+        }
+    },
+    {
+        "ControlPoint": "SAVE-CR-SERVICE",
+        "Operation": "PetitionAddUpdate",
+        "Fields": {
+            "fj_petn_cno": "/Integration/Case/CaseNumber",
+            "fj_petn_pdt": "/Integration/Case/FiledDate",
+            "fj_petn_sct": "/Integration/Case/CaseType",
+            "fj_petn_cpn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='COM']/CrossCaseNumber",
+            "fj_arrt_dcn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='DA']/CrossCaseNumber",
+            "fj_arrt_bnu": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='BOO']/CrossCaseNumber",
+            "fj_arrt_aoa": "/Integration/Case/Charge/BookingAgency/Agency",
+            "fj_arrt_arn": "/Integration/Case/Charge/BookingAgency/ControlNumber",
+            "fj_arrt_cdt": "/Integration/Case/Charge/BookingAgency/ArrestDate",
+            "fj_arrt_ctm": "/Integration/Case/Charge/BookingAgency/ArrestTime"
+        }
+    },
+    {
+        "ControlPoint": "SAVE-CR-TRANS",
+        "Operation": "PetitionAddUpdate",
+        "Fields": {
+            "fj_petn_cno": "/Integration/Case/CaseNumber",
+            "fj_petn_pdt": "/Integration/Case/FiledDate",
+            "fj_petn_sct": "/Integration/Case/CaseType",
+            "fj_petn_cpn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='COM']/CrossCaseNumber",
+            "fj_arrt_dcn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='DA']/CrossCaseNumber",
+            "fj_arrt_bnu": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='BOO']/CrossCaseNumber",
+            "fj_arrt_aoa": "/Integration/Case/Charge/BookingAgency/Agency",
+            "fj_arrt_arn": "/Integration/Case/Charge/BookingAgency/ControlNumber",
+            "fj_arrt_cdt": "/Integration/Case/Charge/BookingAgency/ArrestDate",
+            "fj_arrt_ctm": "/Integration/Case/Charge/BookingAgency/ArrestTime"
+        }
+    },
+    {
+        "ControlPoint": "SAVE-CR-WARRANT",
+        "Operation": "WarrantAddUpdate",
+        "Fields": {
+            "fj_petn_cno": "/Integration/Case/CaseNumber",
+            "fj_petn_pdt": "/Integration/Case/FiledDate",
+            "fj_petn_sct": "/Integration/Case/CaseType",
+            "fj_petn_cpn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='COM']/CrossCaseNumber",
+            "fj_arrt_dcn": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='DA']/CrossCaseNumber",
+            "fj_arrt_bnu": "/Integration/Case/CaseCrossReference[CaseCrossReferenceType/@Word='BOO']/CrossCaseNumber",
+            "fj_arrt_aoa": "/Integration/Case/Charge/BookingAgency/Agency",
+            "fj_arrt_arn": "/Integration/Case/Charge/BookingAgency/ControlNumber",
+            "fj_arrt_cdt": "/Integration/Case/Charge/BookingAgency/ArrestDate",
+            "fj_arrt_ctm": "/Integration/Case/Charge/BookingAgency/ArrestTime"
+        }
+    },
+ ]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CallRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Operation>MyOperation</Operation>
+  <Fields>
+    <Field>
+      <Name>sonoras imperio</Name>
+      <Value>quae divum incedo</Value>
+      <Action>gero et</Action>
+    </Field>
+    <Field>
+      <Name>sonoras imperio2</Name>
+      <Value>quae divum incedo2</Value>
+      <Action>gero et2</Action>
+    </Field>
+  </Fields>
+</CallRequest>

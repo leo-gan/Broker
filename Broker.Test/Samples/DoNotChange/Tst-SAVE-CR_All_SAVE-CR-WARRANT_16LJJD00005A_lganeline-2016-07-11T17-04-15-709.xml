@@ -1,0 +1,884 @@
+<Integration MessageGUID="bb21b298-61ba-4214-a1a2-f9895d0a5c82" xmlns:msxsl="urn:schemas-microsoft-com:xslt"
+             xmlns:tsg="http://tsgweb.com" xmlns:IXML="http://tsgweb.com"
+             xmlns:CMCodeQueryHelper="urn:CMCodeQueryHelper" PackageID="Tst-SAVE-CR_All" MessageID="489">
+  <ControlPoint Timestamp="7/11/2016 5:04:08 PM" UserID="lganeline">SAVE-CR-WARRANT</ControlPoint>
+  <Case InternalID="214913" ID="" xmlns:user="http://tylertechnologies.com">
+    <FiledDate>07/11/2016</FiledDate><CaseCategory>CR</CaseCategory>
+    <CaseType Word="CTDO">Delinquency Original</CaseType><BaseCaseType>Juvenile</BaseCaseType>
+    <CaseTitle>My Style42</CaseTitle><SecurityGroup Word="JVCONF">Confidential (Delinquency)</SecurityGroup>
+    <Active>true</Active><Deleted>false</Deleted><Expunged>false</Expunged><CaseNumber>16LJJD00005A</CaseNumber>
+    <CaseJudge Word="DEPTLJ286">(Department, LJ286)</CaseJudge>
+    <Court>
+      <NodeID>130000</NodeID><CourtName />
+    </Court>
+    <CaseStatus Current="true">
+      <CaseStatusType Word="ACT">Active</CaseStatusType><Date>07/11/2016</Date><Comment>Case Status Comment</Comment>
+      <TimestampCreate>07/11/2016 16:16:32:437</TimestampCreate>
+    </CaseStatus>
+    <CaseStatus>
+      <CaseStatusType Word="INA">Inactive</CaseStatusType><Date>07/11/2016</Date><Comment>Case Status Comment</Comment>
+      <TimestampCreate>07/11/2016 16:16:32:430</TimestampCreate>
+    </CaseStatus>
+    <CaseStatus>
+      <CaseStatusType Word="ACT">Active</CaseStatusType><Date>07/11/2016</Date>
+      <TimestampCreate>07/11/2016 14:11:41:507</TimestampCreate>
+    </CaseStatus>
+    <Assignment Current="true">
+      <Court>
+        <NodeID>130000</NodeID><CourtName /><CourtNCIC />
+      </Court>
+      <CaseNumber>16LJJD00005A</CaseNumber><Judge Word="DEPTLJ286">(Department, LJ286)</Judge>
+      <AssignmentDate>07/06/2016</AssignmentDate><NoticeJudicialOfficer>false</NoticeJudicialOfficer>
+      <TimestampCreate>07/11/2016 14:11:41:783</TimestampCreate>
+    </Assignment>
+    <CaseCrossReference ID="2167">
+      <CaseCrossReferenceType Word="" /><CrossCaseNumber>0007XRR</CrossCaseNumber>
+    </CaseCrossReference>
+    <Hearing ID="" InternalHearingEventID="5650118" xmlns:reslib="urn:reslib">
+      <HearingType Word="15DY">15 Day Review Hearing</HearingType>
+      <HearingTypeBaseCaseCategory>Criminal</HearingTypeBaseCaseCategory>
+      <HearingTypeBaseCaseCategory>Civil</HearingTypeBaseCaseCategory>
+      <HearingTypeBaseCaseCategory>Family</HearingTypeBaseCaseCategory>
+      <HearingTypeBaseCaseCategory>Probate or Mental Health</HearingTypeBaseCaseCategory>
+      <Court>
+        <NodeID>130000</NodeID><CourtName>Alfred J. McCourtney Juvenile Justice Center</CourtName><CourtNCIC />
+      </Court>
+      <HearingComment>Court Session Comment</HearingComment><TimestampCreate>07/11/2016 16:37:00:750</TimestampCreate>
+      <Setting ID="" InternalSettingID="982786" Date="07/11/2016">
+        <HearingDate>07/11/2016</HearingDate><StartTime>8:00 AM</StartTime><EndTime>9:00 AM</EndTime>
+        <CourtSessionName>Ad-Hoc_16LJJD00005A</CourtSessionName>
+        <CourtSessionID ID="" InternalCourtSessionID="384001" /><Calendar Word="JDMC285">Department 285</Calendar>
+        <CalendarBaseCaseCategory>Criminal</CalendarBaseCaseCategory>
+        <CourtResource>
+          <Type Word="JUD">Judicial Officer</Type><Code Word="DEPTLJ286">(Department, LJ286)</Code>
+        </CourtResource>
+        <CourtSessionBlock InternalCourtSessionBlockID="386650">
+          <StartTime>8:00 AM</StartTime><EndTime>9:00 AM</EndTime>
+        </CourtSessionBlock>
+        <InterpreterNeeded>false</InterpreterNeeded><TimestampCreate>07/11/2016 16:37:03:103</TimestampCreate>
+      </Setting>
+    </Hearing>
+    <CaseEvent Date="07/11/2016" ID="" InternalEventID="5650110" xmlns:reslib="urn:reslib">
+      <EventDate>07/11/2016</EventDate><Docketable>True</Docketable><IncludeOnTrans>True</IncludeOnTrans>
+      <RecordingNeeded>false</RecordingNeeded><TimestampCreate>07/11/2016 14:11:42:087</TimestampCreate>
+      <Deleted>false</Deleted><AgingClockActionKey Word="N">Does not affect aging clock</AgingClockActionKey>
+      <EventType Word="240">New Filed Case</EventType><BaseEventType Code="C" />
+    </CaseEvent>
+    <CaseEvent Date="07/11/2016" ID="" InternalEventID="5650113" xmlns:reslib="urn:reslib">
+      <EventDate>07/11/2016</EventDate><Comment>Event Comment</Comment><Docketable>True</Docketable>
+      <IncludeOnTrans>True</IncludeOnTrans><RecordingNeeded>false</RecordingNeeded>
+      <TimestampCreate>07/11/2016 16:27:41:090</TimestampCreate><Deleted>false</Deleted>
+      <AgingClockActionKey Word="N">Does not affect aging clock</AgingClockActionKey>
+      <EventType Word="402">827 - Notice of Request - Sent (JV571)</EventType><BaseEventType Code="C" />
+      <DocumentIndexNumber>1</DocumentIndexNumber>
+    </CaseEvent>
+    <CaseEvent Date="07/11/2016" ID="" InternalEventID="5650114" xmlns:reslib="urn:reslib">
+      <EventDate>07/11/2016</EventDate><Comment>Event Comment2</Comment><Docketable>True</Docketable>
+      <IncludeOnTrans>True</IncludeOnTrans><RecordingNeeded>false</RecordingNeeded>
+      <TimestampCreate>07/11/2016 16:28:10:087</TimestampCreate><Deleted>false</Deleted>
+      <AgingClockActionKey Word="N">Does not affect aging clock</AgingClockActionKey>
+      <EventType Word="6020">Abstract - DMV</EventType><BaseEventType Code="C" />
+      <DocumentIndexNumber>2</DocumentIndexNumber>
+    </CaseEvent>
+    <PleaEvent Date="07/11/2016" ID="" InternalPleaEventID="5650116" xmlns:reslib="urn:reslib">
+      <PleaEventDate>07/11/2016</PleaEventDate><TimestampCreate>07/11/2016 16:33:18:310</TimestampCreate>
+      <AgingClockActionKey Word="N">Does not affect aging clock</AgingClockActionKey>
+      <Judge Word="DEPTLJ286">(Department, LJ286)</Judge>
+      <Plea ChargeID="" ChargeHistoryID="" InternalChargeID="23" InternalOffenseHistoryID="51">
+        <PleaType Word="ADM">Admit</PleaType>
+      </Plea>
+      <Plea ChargeID="" ChargeHistoryID="" InternalChargeID="24" InternalOffenseHistoryID="52">
+        <PleaType Word="NC">No Contest</PleaType>
+      </Plea>
+    </PleaEvent>
+    <DispositionEvent ID="" Date="07/11/2016" InternalDispositionEventID="5650112" xmlns:reslib="urn:reslib">
+      <DispositionEventDate>07/11/2016</DispositionEventDate><Judge Word="DEPTLJ286">(Department, LJ286)</Judge>
+      <TimestampCreate>07/11/2016 16:18:35:580</TimestampCreate>
+      <AgingClockActionKey Word="N">Does not affect aging clock</AgingClockActionKey>
+      <Disposition ChargeID="" ChargeHistoryID="" InternalChargeID="22" InternalOffenseHistoryID="49">
+        <DispositionType Word="AHCD">After Hearing - Contested - Dismissal</DispositionType>
+      </Disposition>
+    </DispositionEvent>
+    <DispositionEvent ID="" Date="07/11/2016" InternalDispositionEventID="5650115" xmlns:reslib="urn:reslib">
+      <DispositionEventDate>07/11/2016</DispositionEventDate><Judge Word="DEPTLJ286">(Department, LJ286)</Judge>
+      <TimestampCreate>07/11/2016 16:29:29:390</TimestampCreate>
+      <AgingClockActionKey Word="N">Does not affect aging clock</AgingClockActionKey>
+      <Disposition ChargeID="" ChargeHistoryID="" InternalChargeID="25" InternalOffenseHistoryID="50">
+        <DispositionType Word="AHCP">After Hearing - Contested - Entry of Judgment - Probation</DispositionType>
+      </Disposition>
+    </DispositionEvent>
+    <SentenceEvent Date="07/11/2016" InternalSentenceEventID="5650117">
+      <SentenceType Word="6">Declared a Ward - Camp</SentenceType><SentenceDate>07/11/2016</SentenceDate>
+      <Docketable>False</Docketable><TimestampCreate>07/11/2016 16:34:53:120</TimestampCreate><TimestampChange />
+      <Judge Word="DEPTLJ286">(Department, LJ286)</Judge>
+      <Sentence InternalSentenceID="1">
+        <SentenceCharge>
+          <ChargeID InternalChargeID="25" /><ChargeHistoryID InternalOffenseHistoryID="50" />
+          <ChargeNumber>456</ChargeNumber>
+          <ChargeStatuteCode Word="CY5-4"># Of Dogs Permited In Residenc</ChargeStatuteCode>
+          <ChargeStatute>5-4</ChargeStatute>
+        </SentenceCharge>
+      </Sentence>
+    </SentenceEvent>
+    <ServiceEvent ID="" InternalServiceEventID="5650119" Date="07/11/2016">
+      <ServiceEventType Word="SUM">Summons</ServiceEventType><IssueDate>07/11/2016</IssueDate>
+      <Deleted>
+        False
+      </Deleted>
+      <TimestampCreate>07/11/2016 17:00:35:253</TimestampCreate>
+      <Service ID="">
+        <Party ID="" InternalPartyID="1277290">
+          <PartyName>TestGan2, TestLeo2</PartyName><PartyConnection Word="PAR">Parent</PartyConnection>
+        </Party>
+        <PersonToServe>TestGan2, TestLeo2</PersonToServe>
+        <Deleted>
+          False
+        </Deleted>
+        <TimestampCreate>07/11/2016 17:00:40</TimestampCreate>
+      </Service>
+    </ServiceEvent>
+    <ServiceEvent ID="" InternalServiceEventID="5650120" Date="07/11/2016">
+      <ServiceEventType Word="SUM">Summons</ServiceEventType><IssueDate>07/11/2016</IssueDate>
+      <Deleted>
+        False
+      </Deleted>
+      <TimestampCreate>07/11/2016 17:01:30:410</TimestampCreate>
+      <Service ID="">
+        <Party ID="" InternalPartyID="1277289">
+          <PartyName>TestGan, TestLeo</PartyName><PartyConnection Word="MIND">Minor - Delinquency</PartyConnection>
+        </Party>
+        <PersonToServe>TestGan, TestLeo</PersonToServe>
+        <Deleted>
+          False
+        </Deleted>
+        <TimestampCreate>07/11/2016 17:01:30</TimestampCreate>
+      </Service>
+    </ServiceEvent>
+    <CaseParty InternalCasePartyID="1082146" InternalPartyID="1">
+      <SendNotice>true</SendNotice><RestrictView>false</RestrictView>
+      <Connection Word="PLA" BaseConnection="PL" InternalCasePartyConnectionID="1082500">
+        <Description>Plaintiff</Description><TimestampCreate>7/11/2016 2:11:42 PM</TimestampCreate>
+        <DateAdded>07/11/2016</DateAdded>
+      </Connection>
+      <CasePartyName Current="true" InternalNameID="1" /><TimestampCreate>7/11/2016 2:11:42 PM</TimestampCreate>
+    </CaseParty>
+    <CaseParty InternalCasePartyID="1082147" InternalPartyID="1277289">
+      <SendNotice>false</SendNotice><RestrictView>false</RestrictView>
+      <Connection Word="MIND" BaseConnection="DF" InternalCasePartyConnectionID="1082501">
+        <Description>Minor - Delinquency</Description><TimestampCreate>7/11/2016 2:11:42 PM</TimestampCreate>
+        <DateAdded>07/11/2016</DateAdded>
+      </Connection>
+      <CasePartyName Current="true" InternalNameID="2354571" /><TimestampCreate>7/11/2016 2:11:42 PM</TimestampCreate>
+    </CaseParty>
+    <CaseParty InternalCasePartyID="1082148" InternalPartyID="1277290">
+      <SendNotice>true</SendNotice><RestrictView>false</RestrictView>
+      <Connection Word="PAR" BaseConnection="GD" InternalCasePartyConnectionID="1082502">
+        <Description>Parent</Description><TimestampCreate>7/11/2016 2:11:42 PM</TimestampCreate>
+        <DateAdded>07/11/2016</DateAdded>
+      </Connection>
+      <CasePartyName Current="true" InternalNameID="2354572" /><TimestampCreate>7/11/2016 2:11:42 PM</TimestampCreate>
+    </CaseParty>
+    <Charge ID="" PartyID="" InternalChargeID="22" InternalPartyID="1277289" xmlns:reslib="urn:reslib">
+      <ChargeOffenseDate>07/04/2016</ChargeOffenseDate><DateOnOrAbout>false</DateOnOrAbout>
+      <TimeAtOrAbout>false</TimeAtOrAbout><Nondisclosed>false</Nondisclosed>
+      <ChargeHistory ChargeHistoryID="" Stage="Case Filing" FilingSequence="1" InternalOffenseHistoryID="42">
+        <ChargeNumber>003</ChargeNumber><Jurisdiction Word="AZ">Azusa</Jurisdiction>
+        <TimestampCreate>07/11/2016 14:11:42:190</TimestampCreate>
+        <ChargeOffenseDate deprecated="true">07/04/2016</ChargeOffenseDate>
+        <DateOnOrAbout deprecated="true">false</DateOnOrAbout><TimeAtOrAbout deprecated="true">false</TimeAtOrAbout>
+        <FineAmount>35</FineAmount>
+        <Statute>
+          <StatuteNumber>103.311(B)</StatuteNumber><StatuteDescription>2Nd Hnd Dealer W/O Permit</StatuteDescription>
+          <StatuteCode Word="LA103.311(B)" InternalCodeID="47425">2Nd Hnd Dealer W/O Permit</StatuteCode>
+          <LegacyReferenceID>LA103.311(B)-I</LegacyReferenceID><Degree Word="I">Infraction</Degree>
+        </Statute>
+        <Deleted>false</Deleted>
+      </ChargeHistory>
+      <ChargeHistory ChargeHistoryID="" Stage="Disposition Event" DispositionEventSequence="1" CurrentCharge="true"
+                     InternalOffenseHistoryID="49">
+        <ChargeNumber>003</ChargeNumber><Jurisdiction Word="AZ">Azusa</Jurisdiction>
+        <TimestampCreate>07/11/2016 16:18:35:683</TimestampCreate>
+        <ChargeOffenseDate deprecated="true">07/04/2016</ChargeOffenseDate>
+        <DateOnOrAbout deprecated="true">false</DateOnOrAbout><TimeAtOrAbout deprecated="true">false</TimeAtOrAbout>
+        <FineAmount>35</FineAmount>
+        <Statute>
+          <StatuteNumber>103.311(B)</StatuteNumber><StatuteDescription>2Nd Hnd Dealer W/O Permit</StatuteDescription>
+          <StatuteCode Word="LA103.311(B)" InternalCodeID="47425">2Nd Hnd Dealer W/O Permit</StatuteCode>
+          <LegacyReferenceID>LA103.311(B)-I</LegacyReferenceID><Degree Word="I">Infraction</Degree>
+        </Statute>
+        <Deleted>false</Deleted>
+      </ChargeHistory>
+      <Deleted>false</Deleted>
+    </Charge>
+    <Charge Op="E" ID="" PartyID="" InternalChargeID="23" InternalPartyID="1277289" xmlns:reslib="urn:reslib">
+      <ChargeOffenseDate>07/06/2016</ChargeOffenseDate><DateOnOrAbout>false</DateOnOrAbout>
+      <TimeAtOrAbout>false</TimeAtOrAbout><Nondisclosed>false</Nondisclosed>
+      <ChargeHistory ChargeHistoryID="" Stage="Case Filing" FilingSequence="1" InternalOffenseHistoryID="43">
+        <ChargeNumber>004</ChargeNumber><Jurisdiction Word="ARC">Arcadia</Jurisdiction>
+        <TimestampCreate>07/11/2016 14:11:42:237</TimestampCreate>
+        <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+        <DateOnOrAbout deprecated="true">false</DateOnOrAbout><TimeAtOrAbout deprecated="true">false</TimeAtOrAbout>
+        <ChargeFilingDate>07/06/2016</ChargeFilingDate><FineAmount>75</FineAmount>
+        <Statute>
+          <StatuteNumber>9.28.011(A)</StatuteNumber><StatuteDescription>30 Minutes Limit</StatuteDescription>
+          <StatuteCode Word="PD9.28.011(A)" InternalCodeID="60333">30 Minutes Limit</StatuteCode>
+          <LegacyReferenceID>PD9.28.011(A)-M</LegacyReferenceID><Degree Word="M">Misdemeanor</Degree>
+        </Statute>
+        <Deleted>false</Deleted>
+      </ChargeHistory>
+      <ChargeHistory Op="A" ChargeHistoryID="" Stage="Warrant Issued" WarrantEventSequence="1"
+                     InternalOffenseHistoryID="53">
+        <ChargeNumber Op="A">004</ChargeNumber><Jurisdiction Op="A" Word="ARC">Arcadia</Jurisdiction>
+        <TimestampCreate Op="A">07/11/2016 17:04:08:203</TimestampCreate>
+        <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+        <DateOnOrAbout deprecated="true">false</DateOnOrAbout><TimeAtOrAbout deprecated="true">false</TimeAtOrAbout>
+        <GeneralOffenseCode Op="A" Word="" /><FineAmount Op="A">75</FineAmount>
+        <Statute>
+          <StatuteNumber Op="A">9.28.011(A)</StatuteNumber>
+          <StatuteDescription Op="A">30 Minutes Limit</StatuteDescription>
+          <StatuteCode Op="A" Word="PD9.28.011(A)" InternalCodeID="60333">30 Minutes Limit</StatuteCode>
+          <LegacyReferenceID Op="A">PD9.28.011(A)-M</LegacyReferenceID><Degree Op="A" Word="M">Misdemeanor</Degree>
+        </Statute>
+        <Deleted Op="A">false</Deleted>
+      </ChargeHistory>
+      <ChargeHistory ChargeHistoryID="" Stage="Plea Event" PleaEventSequence="1" CurrentCharge="true"
+                     InternalOffenseHistoryID="51">
+        <ChargeNumber>004</ChargeNumber><Jurisdiction Word="ARC">Arcadia</Jurisdiction>
+        <TimestampCreate>07/11/2016 16:33:18:407</TimestampCreate>
+        <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+        <DateOnOrAbout deprecated="true">false</DateOnOrAbout><TimeAtOrAbout deprecated="true">false</TimeAtOrAbout>
+        <FineAmount>75</FineAmount>
+        <Statute>
+          <StatuteNumber>9.28.011(A)</StatuteNumber><StatuteDescription>30 Minutes Limit</StatuteDescription>
+          <StatuteCode Word="PD9.28.011(A)" InternalCodeID="60333">30 Minutes Limit</StatuteCode>
+          <LegacyReferenceID>PD9.28.011(A)-M</LegacyReferenceID><Degree Word="M">Misdemeanor</Degree>
+        </Statute>
+        <Deleted>false</Deleted>
+      </ChargeHistory>
+      <Deleted>false</Deleted>
+    </Charge>
+    <Charge Op="E" ID="" PartyID="" InternalChargeID="24" InternalPartyID="1277289" xmlns:reslib="urn:reslib">
+      <ChargeOffenseDate>07/06/2016</ChargeOffenseDate><ChargeOffenseTime>5:00 PM</ChargeOffenseTime>
+      <ChargeOffenseEndDate>07/07/2016</ChargeOffenseEndDate><ChargeOffenseEndTime>5:00 PM</ChargeOffenseEndTime>
+      <DateOnOrAbout>false</DateOnOrAbout><TimeAtOrAbout>false</TimeAtOrAbout><Nondisclosed>false</Nondisclosed>
+      <BookingAgency ID="" ChargeHistoryID="">
+        <PartyID /><Agency Word="7202">ALHAMBRA FIRE DEPARTMENT</Agency><ArrestDate>07/05/2016</ArrestDate>
+        <ArrestTime>6:00 PM</ArrestTime><ORI /><ControlNumber>1234</ControlNumber>
+        <OfficerBadgeNumber>4567</OfficerBadgeNumber><OfficerName>MyOfficer1</OfficerName>
+      </BookingAgency>
+      <ReportingAgency ID="">
+        <PartyID /><ControlNumber>654</ControlNumber><Agency Word="7202">ALHAMBRA FIRE DEPARTMENT</Agency><ORI />
+        <OfficerBadgeNumber>357</OfficerBadgeNumber><OfficerName>MyOfficer2</OfficerName>
+      </ReportingAgency>
+      <ChargeHistory ChargeHistoryID="" Stage="Arrest" ArrestSequence="1" InternalOffenseHistoryID="45">
+        <ChargeNumber>045</ChargeNumber><Jurisdiction Word="ALH">Alhambra</Jurisdiction>
+        <TimestampCreate>07/11/2016 14:11:42:280</TimestampCreate>
+        <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+        <ChargeOffenseTime deprecated="true">5:00 PM</ChargeOffenseTime>
+        <ChargeOffenseEndDate deprecated="true">07/07/2016</ChargeOffenseEndDate>
+        <ChargeOffenseEndTime deprecated="true">5:00 PM</ChargeOffenseEndTime>
+        <DateOnOrAbout deprecated="true">false</DateOnOrAbout><TimeAtOrAbout deprecated="true">false</TimeAtOrAbout>
+        <FineAmount>250</FineAmount><BondAmount>66</BondAmount><BondType Word="FUG">Fugitive Bond</BondType>
+        <Statute>
+          <StatuteNumber>9.20.012</StatuteNumber><StatuteDescription>10 P.M. Curfew</StatuteDescription>
+          <StatuteCode Word="DU9.20.012" InternalCodeID="41301">10 P.M. Curfew</StatuteCode>
+          <LegacyReferenceID>DU9.20.012-M</LegacyReferenceID><Degree Word="M">Misdemeanor</Degree>
+        </Statute>
+        <ArrestPhaseDate>7/5/2016</ArrestPhaseDate><Deleted>false</Deleted>
+      </ChargeHistory>
+      <ChargeHistory ChargeHistoryID="" Stage="Case Filing" FilingSequence="1" InternalOffenseHistoryID="44">
+        <ChargeNumber>045</ChargeNumber><Jurisdiction Word="ALH">Alhambra</Jurisdiction>
+        <TimestampCreate>07/11/2016 14:11:42:267</TimestampCreate>
+        <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+        <ChargeOffenseTime deprecated="true">5:00 PM</ChargeOffenseTime>
+        <ChargeOffenseEndDate deprecated="true">07/07/2016</ChargeOffenseEndDate>
+        <ChargeOffenseEndTime deprecated="true">5:00 PM</ChargeOffenseEndTime>
+        <DateOnOrAbout deprecated="true">false</DateOnOrAbout><TimeAtOrAbout deprecated="true">false</TimeAtOrAbout>
+        <FineAmount>250</FineAmount><BondAmount>66</BondAmount><BondType Word="FUG">Fugitive Bond</BondType>
+        <Statute>
+          <StatuteNumber>9.20.012</StatuteNumber><StatuteDescription>10 P.M. Curfew</StatuteDescription>
+          <StatuteCode Word="DU9.20.012" InternalCodeID="41301">10 P.M. Curfew</StatuteCode>
+          <LegacyReferenceID>DU9.20.012-M</LegacyReferenceID><Degree Word="M">Misdemeanor</Degree>
+        </Statute>
+        <Deleted>false</Deleted>
+      </ChargeHistory>
+      <ChargeHistory Op="A" ChargeHistoryID="" Stage="Warrant Issued" WarrantEventSequence="1"
+                     InternalOffenseHistoryID="54">
+        <ChargeNumber Op="A">045</ChargeNumber><Jurisdiction Op="A" Word="ALH">Alhambra</Jurisdiction>
+        <TimestampCreate Op="A">07/11/2016 17:04:08:227</TimestampCreate>
+        <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+        <ChargeOffenseTime deprecated="true">5:00 PM</ChargeOffenseTime>
+        <ChargeOffenseEndDate deprecated="true">07/07/2016</ChargeOffenseEndDate>
+        <ChargeOffenseEndTime deprecated="true">5:00 PM</ChargeOffenseEndTime>
+        <DateOnOrAbout deprecated="true">false</DateOnOrAbout><TimeAtOrAbout deprecated="true">false</TimeAtOrAbout>
+        <GeneralOffenseCode Op="A" Word="" /><FineAmount Op="A">250</FineAmount><BondAmount Op="A">66</BondAmount>
+        <BondType Op="A" Word="FUG">Fugitive Bond</BondType>
+        <Statute>
+          <StatuteNumber Op="A">9.20.012</StatuteNumber><StatuteDescription Op="A">10 P.M. Curfew</StatuteDescription>
+          <StatuteCode Op="A" Word="DU9.20.012" InternalCodeID="41301">10 P.M. Curfew</StatuteCode>
+          <LegacyReferenceID Op="A">DU9.20.012-M</LegacyReferenceID><Degree Op="A" Word="M">Misdemeanor</Degree>
+        </Statute>
+        <Deleted Op="A">false</Deleted>
+      </ChargeHistory>
+      <ChargeHistory ChargeHistoryID="" Stage="Plea Event" PleaEventSequence="1" CurrentCharge="true"
+                     InternalOffenseHistoryID="52">
+        <ChargeNumber>045</ChargeNumber><Jurisdiction Word="ALH">Alhambra</Jurisdiction>
+        <TimestampCreate>07/11/2016 16:33:18:433</TimestampCreate>
+        <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+        <ChargeOffenseTime deprecated="true">5:00 PM</ChargeOffenseTime>
+        <ChargeOffenseEndDate deprecated="true">07/07/2016</ChargeOffenseEndDate>
+        <ChargeOffenseEndTime deprecated="true">5:00 PM</ChargeOffenseEndTime>
+        <DateOnOrAbout deprecated="true">false</DateOnOrAbout><TimeAtOrAbout deprecated="true">false</TimeAtOrAbout>
+        <FineAmount>250</FineAmount><BondAmount>66</BondAmount><BondType Word="FUG">Fugitive Bond</BondType>
+        <Statute>
+          <StatuteNumber>9.20.012</StatuteNumber><StatuteDescription>10 P.M. Curfew</StatuteDescription>
+          <StatuteCode Word="DU9.20.012" InternalCodeID="41301">10 P.M. Curfew</StatuteCode>
+          <LegacyReferenceID>DU9.20.012-M</LegacyReferenceID><Degree Word="M">Misdemeanor</Degree>
+        </Statute>
+        <Deleted>false</Deleted>
+      </ChargeHistory>
+      <Deleted>false</Deleted>
+    </Charge>
+    <Charge Op="E" ID="" PartyID="" InternalChargeID="25" InternalPartyID="1277289" xmlns:reslib="urn:reslib">
+      <ChargeOffenseDate>07/06/2016</ChargeOffenseDate><ChargeOffenseTime>7:00 AM</ChargeOffenseTime>
+      <ChargeOffenseEndDate>07/06/2016</ChargeOffenseEndDate><ChargeOffenseEndTime>8:00 AM</ChargeOffenseEndTime>
+      <DateOnOrAbout>true</DateOnOrAbout><TimeAtOrAbout>true</TimeAtOrAbout><Nondisclosed>false</Nondisclosed>
+      <BookingAgency ID="" ChargeHistoryID="">
+        <PartyID /><Agency Word="7202">ALHAMBRA FIRE DEPARTMENT</Agency><ArrestDate>07/05/2016</ArrestDate>
+        <ArrestTime>6:00 PM</ArrestTime><ORI /><ControlNumber>1234</ControlNumber>
+        <OfficerBadgeNumber>4567</OfficerBadgeNumber><OfficerName>MyOfficer1</OfficerName>
+      </BookingAgency>
+      <ReportingAgency ID="">
+        <PartyID /><ControlNumber>654</ControlNumber><Agency Word="7202">ALHAMBRA FIRE DEPARTMENT</Agency><ORI />
+        <OfficerBadgeNumber>357</OfficerBadgeNumber><OfficerName>MyOfficer2</OfficerName>
+      </ReportingAgency>
+      <ChargeHistory ChargeHistoryID="" Stage="Arrest" ArrestSequence="1" InternalOffenseHistoryID="47">
+        <ChargeNumber>456</ChargeNumber><Jurisdiction Word="AGH">Agoura Hills</Jurisdiction>
+        <TimestampCreate>07/11/2016 14:11:42:323</TimestampCreate>
+        <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+        <ChargeOffenseTime deprecated="true">7:00 AM</ChargeOffenseTime>
+        <ChargeOffenseEndDate deprecated="true">07/06/2016</ChargeOffenseEndDate>
+        <ChargeOffenseEndTime deprecated="true">8:00 AM</ChargeOffenseEndTime>
+        <DateOnOrAbout deprecated="true">true</DateOnOrAbout><TimeAtOrAbout deprecated="true">true</TimeAtOrAbout>
+        <GeneralOffenseCode Word="E">Enhancement</GeneralOffenseCode><FineAmount>250</FineAmount>
+        <BondAmount>45</BondAmount><BondType Word="AB">Appeal Bond</BondType>
+        <Statute>
+          <StatuteNumber>5-4</StatuteNumber><StatuteDescription># Of Dogs Permited In Residenc</StatuteDescription>
+          <StatuteCode Word="CY5-4" InternalCodeID="40342"># Of Dogs Permited In Residenc</StatuteCode>
+          <LegacyReferenceID>CY5-4-M</LegacyReferenceID><Degree Word="M">Misdemeanor</Degree>
+        </Statute>
+        <ArrestPhaseDate>7/5/2016</ArrestPhaseDate><Deleted>false</Deleted>
+      </ChargeHistory>
+      <ChargeHistory ChargeHistoryID="" Stage="Case Filing" FilingSequence="1" InternalOffenseHistoryID="46">
+        <ChargeNumber>456</ChargeNumber><Jurisdiction Word="AGH">Agoura Hills</Jurisdiction>
+        <TimestampCreate>07/11/2016 14:11:42:307</TimestampCreate>
+        <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+        <ChargeOffenseTime deprecated="true">7:00 AM</ChargeOffenseTime>
+        <ChargeOffenseEndDate deprecated="true">07/06/2016</ChargeOffenseEndDate>
+        <ChargeOffenseEndTime deprecated="true">8:00 AM</ChargeOffenseEndTime>
+        <DateOnOrAbout deprecated="true">true</DateOnOrAbout><TimeAtOrAbout deprecated="true">true</TimeAtOrAbout>
+        <GeneralOffenseCode Word="E">Enhancement</GeneralOffenseCode><FineAmount>250</FineAmount>
+        <BondAmount>45</BondAmount><BondType Word="AB">Appeal Bond</BondType>
+        <Statute>
+          <StatuteNumber>5-4</StatuteNumber><StatuteDescription># Of Dogs Permited In Residenc</StatuteDescription>
+          <StatuteCode Word="CY5-4" InternalCodeID="40342"># Of Dogs Permited In Residenc</StatuteCode>
+          <LegacyReferenceID>CY5-4-M</LegacyReferenceID><Degree Word="M">Misdemeanor</Degree>
+        </Statute>
+        <Deleted>false</Deleted>
+      </ChargeHistory>
+      <ChargeHistory Op="A" ChargeHistoryID="" Stage="Warrant Issued" WarrantEventSequence="1"
+                     InternalOffenseHistoryID="55">
+        <ChargeNumber Op="A">456</ChargeNumber><Jurisdiction Op="A" Word="AGH">Agoura Hills</Jurisdiction>
+        <TimestampCreate Op="A">07/11/2016 17:04:08:247</TimestampCreate>
+        <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+        <ChargeOffenseTime deprecated="true">7:00 AM</ChargeOffenseTime>
+        <ChargeOffenseEndDate deprecated="true">07/06/2016</ChargeOffenseEndDate>
+        <ChargeOffenseEndTime deprecated="true">8:00 AM</ChargeOffenseEndTime>
+        <DateOnOrAbout deprecated="true">true</DateOnOrAbout><TimeAtOrAbout deprecated="true">true</TimeAtOrAbout>
+        <GeneralOffenseCode Op="A" Word="E">Enhancement</GeneralOffenseCode><FineAmount Op="A">250</FineAmount>
+        <BondAmount Op="A">45</BondAmount><BondType Op="A" Word="AB">Appeal Bond</BondType>
+        <Statute>
+          <StatuteNumber Op="A">5-4</StatuteNumber>
+          <StatuteDescription Op="A"># Of Dogs Permited In Residenc</StatuteDescription>
+          <StatuteCode Op="A" Word="CY5-4" InternalCodeID="40342"># Of Dogs Permited In Residenc</StatuteCode>
+          <LegacyReferenceID Op="A">CY5-4-M</LegacyReferenceID><Degree Op="A" Word="M">Misdemeanor</Degree>
+        </Statute>
+        <Deleted Op="A">false</Deleted>
+      </ChargeHistory>
+      <ChargeHistory ChargeHistoryID="" Stage="Disposition Event" DispositionEventSequence="1" CurrentCharge="true"
+                     InternalOffenseHistoryID="50">
+        <ChargeNumber>456</ChargeNumber><Jurisdiction Word="AGH">Agoura Hills</Jurisdiction>
+        <TimestampCreate>07/11/2016 16:29:29:443</TimestampCreate>
+        <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+        <ChargeOffenseTime deprecated="true">7:00 AM</ChargeOffenseTime>
+        <ChargeOffenseEndDate deprecated="true">07/06/2016</ChargeOffenseEndDate>
+        <ChargeOffenseEndTime deprecated="true">8:00 AM</ChargeOffenseEndTime>
+        <DateOnOrAbout deprecated="true">true</DateOnOrAbout><TimeAtOrAbout deprecated="true">true</TimeAtOrAbout>
+        <GeneralOffenseCode Word="E">Enhancement</GeneralOffenseCode><FineAmount>250</FineAmount>
+        <BondAmount>45</BondAmount><BondType Word="AB">Appeal Bond</BondType>
+        <Statute>
+          <StatuteNumber>5-4</StatuteNumber><StatuteDescription># Of Dogs Permited In Residenc</StatuteDescription>
+          <StatuteCode Word="CY5-4" InternalCodeID="40342"># Of Dogs Permited In Residenc</StatuteCode>
+          <LegacyReferenceID>CY5-4-M</LegacyReferenceID><Degree Word="M">Misdemeanor</Degree>
+        </Statute>
+        <Deleted>false</Deleted>
+      </ChargeHistory>
+      <Deleted>false</Deleted>
+    </Charge>
+  </Case>
+  <IntegrationConditions>
+    <IntegrationCondition Word="True" Description="Always True">
+      <Integration MessageGUID="6d01c2c0-4326-4396-b567-4c83902259d8" xmlns:msxsl="urn:schemas-microsoft-com:xslt"
+                   xmlns:tsg="http://tsgweb.com" xmlns:IXML="http://tsgweb.com"
+                   xmlns:CMCodeQueryHelper="urn:CMCodeQueryHelper">
+        <ControlPoint Timestamp="7/11/2016 5:04:08 PM" UserID="lganeline">SAVE-CR-WARRANT</ControlPoint>
+        <Case InternalID="214913" ID="" xmlns:user="http://tylertechnologies.com">
+          <FiledDate>07/11/2016</FiledDate><CaseCategory>CR</CaseCategory>
+          <CaseType Word="CTDO">Delinquency Original</CaseType><BaseCaseType>Juvenile</BaseCaseType>
+          <CaseTitle>My Style42</CaseTitle><SecurityGroup Word="JVCONF">Confidential (Delinquency)</SecurityGroup>
+          <Active>true</Active><Deleted>false</Deleted><Expunged>false</Expunged><CaseNumber>16LJJD00005A</CaseNumber>
+          <CaseJudge Word="DEPTLJ286">(Department, LJ286)</CaseJudge>
+          <Court>
+            <NodeID>130000</NodeID><CourtName />
+          </Court>
+          <CaseStatus Current="true">
+            <CaseStatusType Word="ACT">Active</CaseStatusType><Date>07/11/2016</Date>
+            <Comment>Case Status Comment</Comment><TimestampCreate>07/11/2016 16:16:32:437</TimestampCreate>
+          </CaseStatus>
+          <CaseStatus>
+            <CaseStatusType Word="INA">Inactive</CaseStatusType><Date>07/11/2016</Date>
+            <Comment>Case Status Comment</Comment><TimestampCreate>07/11/2016 16:16:32:430</TimestampCreate>
+          </CaseStatus>
+          <CaseStatus>
+            <CaseStatusType Word="ACT">Active</CaseStatusType><Date>07/11/2016</Date>
+            <TimestampCreate>07/11/2016 14:11:41:507</TimestampCreate>
+          </CaseStatus>
+          <Assignment Current="true">
+            <Court>
+              <NodeID>130000</NodeID><CourtName /><CourtNCIC />
+            </Court>
+            <CaseNumber>16LJJD00005A</CaseNumber><Judge Word="DEPTLJ286">(Department, LJ286)</Judge>
+            <AssignmentDate>07/06/2016</AssignmentDate><NoticeJudicialOfficer>false</NoticeJudicialOfficer>
+            <TimestampCreate>07/11/2016 14:11:41:783</TimestampCreate>
+          </Assignment>
+          <CaseCrossReference ID="2167">
+            <CaseCrossReferenceType Word="" /><CrossCaseNumber>0007XRR</CrossCaseNumber>
+          </CaseCrossReference>
+          <Hearing ID="" InternalHearingEventID="5650118" xmlns:reslib="urn:reslib">
+            <HearingType Word="15DY">15 Day Review Hearing</HearingType>
+            <HearingTypeBaseCaseCategory>Criminal</HearingTypeBaseCaseCategory>
+            <HearingTypeBaseCaseCategory>Civil</HearingTypeBaseCaseCategory>
+            <HearingTypeBaseCaseCategory>Family</HearingTypeBaseCaseCategory>
+            <HearingTypeBaseCaseCategory>Probate or Mental Health</HearingTypeBaseCaseCategory>
+            <Court>
+              <NodeID>130000</NodeID><CourtName>Alfred J. McCourtney Juvenile Justice Center</CourtName><CourtNCIC />
+            </Court>
+            <HearingComment>Court Session Comment</HearingComment>
+            <TimestampCreate>07/11/2016 16:37:00:750</TimestampCreate>
+            <Setting ID="" InternalSettingID="982786" Date="07/11/2016">
+              <HearingDate>07/11/2016</HearingDate><StartTime>8:00 AM</StartTime><EndTime>9:00 AM</EndTime>
+              <CourtSessionName>Ad-Hoc_16LJJD00005A</CourtSessionName>
+              <CourtSessionID ID="" InternalCourtSessionID="384001" />
+              <Calendar Word="JDMC285">Department 285</Calendar>
+              <CalendarBaseCaseCategory>Criminal</CalendarBaseCaseCategory>
+              <CourtResource>
+                <Type Word="JUD">Judicial Officer</Type><Code Word="DEPTLJ286">(Department, LJ286)</Code>
+              </CourtResource>
+              <CourtSessionBlock InternalCourtSessionBlockID="386650">
+                <StartTime>8:00 AM</StartTime><EndTime>9:00 AM</EndTime>
+              </CourtSessionBlock>
+              <InterpreterNeeded>false</InterpreterNeeded><TimestampCreate>07/11/2016 16:37:03:103</TimestampCreate>
+            </Setting>
+          </Hearing>
+          <CaseEvent Date="07/11/2016" ID="" InternalEventID="5650110" xmlns:reslib="urn:reslib">
+            <EventDate>07/11/2016</EventDate><Docketable>True</Docketable><IncludeOnTrans>True</IncludeOnTrans>
+            <RecordingNeeded>false</RecordingNeeded><TimestampCreate>07/11/2016 14:11:42:087</TimestampCreate>
+            <Deleted>false</Deleted><AgingClockActionKey Word="N">Does not affect aging clock</AgingClockActionKey>
+            <EventType Word="240">New Filed Case</EventType><BaseEventType Code="C" />
+          </CaseEvent>
+          <CaseEvent Date="07/11/2016" ID="" InternalEventID="5650113" xmlns:reslib="urn:reslib">
+            <EventDate>07/11/2016</EventDate><Comment>Event Comment</Comment><Docketable>True</Docketable>
+            <IncludeOnTrans>True</IncludeOnTrans><RecordingNeeded>false</RecordingNeeded>
+            <TimestampCreate>07/11/2016 16:27:41:090</TimestampCreate><Deleted>false</Deleted>
+            <AgingClockActionKey Word="N">Does not affect aging clock</AgingClockActionKey>
+            <EventType Word="402">827 - Notice of Request - Sent (JV571)</EventType><BaseEventType Code="C" />
+            <DocumentIndexNumber>1</DocumentIndexNumber>
+          </CaseEvent>
+          <CaseEvent Date="07/11/2016" ID="" InternalEventID="5650114" xmlns:reslib="urn:reslib">
+            <EventDate>07/11/2016</EventDate><Comment>Event Comment2</Comment><Docketable>True</Docketable>
+            <IncludeOnTrans>True</IncludeOnTrans><RecordingNeeded>false</RecordingNeeded>
+            <TimestampCreate>07/11/2016 16:28:10:087</TimestampCreate><Deleted>false</Deleted>
+            <AgingClockActionKey Word="N">Does not affect aging clock</AgingClockActionKey>
+            <EventType Word="6020">Abstract - DMV</EventType><BaseEventType Code="C" />
+            <DocumentIndexNumber>2</DocumentIndexNumber>
+          </CaseEvent>
+          <PleaEvent Date="07/11/2016" ID="" InternalPleaEventID="5650116" xmlns:reslib="urn:reslib">
+            <PleaEventDate>07/11/2016</PleaEventDate><TimestampCreate>07/11/2016 16:33:18:310</TimestampCreate>
+            <AgingClockActionKey Word="N">Does not affect aging clock</AgingClockActionKey>
+            <Judge Word="DEPTLJ286">(Department, LJ286)</Judge>
+            <Plea ChargeID="" ChargeHistoryID="" InternalChargeID="23" InternalOffenseHistoryID="51">
+              <PleaType Word="ADM">Admit</PleaType>
+            </Plea>
+            <Plea ChargeID="" ChargeHistoryID="" InternalChargeID="24" InternalOffenseHistoryID="52">
+              <PleaType Word="NC">No Contest</PleaType>
+            </Plea>
+          </PleaEvent>
+          <DispositionEvent ID="" Date="07/11/2016" InternalDispositionEventID="5650112" xmlns:reslib="urn:reslib">
+            <DispositionEventDate>07/11/2016</DispositionEventDate><Judge Word="DEPTLJ286">(Department, LJ286)</Judge>
+            <TimestampCreate>07/11/2016 16:18:35:580</TimestampCreate>
+            <AgingClockActionKey Word="N">Does not affect aging clock</AgingClockActionKey>
+            <Disposition ChargeID="" ChargeHistoryID="" InternalChargeID="22" InternalOffenseHistoryID="49">
+              <DispositionType Word="AHCD">After Hearing - Contested - Dismissal</DispositionType>
+            </Disposition>
+          </DispositionEvent>
+          <DispositionEvent ID="" Date="07/11/2016" InternalDispositionEventID="5650115" xmlns:reslib="urn:reslib">
+            <DispositionEventDate>07/11/2016</DispositionEventDate><Judge Word="DEPTLJ286">(Department, LJ286)</Judge>
+            <TimestampCreate>07/11/2016 16:29:29:390</TimestampCreate>
+            <AgingClockActionKey Word="N">Does not affect aging clock</AgingClockActionKey>
+            <Disposition ChargeID="" ChargeHistoryID="" InternalChargeID="25" InternalOffenseHistoryID="50">
+              <DispositionType Word="AHCP">After Hearing - Contested - Entry of Judgment - Probation</DispositionType>
+            </Disposition>
+          </DispositionEvent>
+          <SentenceEvent Date="07/11/2016" InternalSentenceEventID="5650117">
+            <SentenceType Word="6">Declared a Ward - Camp</SentenceType><SentenceDate>07/11/2016</SentenceDate>
+            <Docketable>False</Docketable><TimestampCreate>07/11/2016 16:34:53:120</TimestampCreate><TimestampChange />
+            <Judge Word="DEPTLJ286">(Department, LJ286)</Judge>
+            <Sentence InternalSentenceID="1">
+              <SentenceCharge>
+                <ChargeID InternalChargeID="25" /><ChargeHistoryID InternalOffenseHistoryID="50" />
+                <ChargeNumber>456</ChargeNumber>
+                <ChargeStatuteCode Word="CY5-4"># Of Dogs Permited In Residenc</ChargeStatuteCode>
+                <ChargeStatute>5-4</ChargeStatute>
+              </SentenceCharge>
+            </Sentence>
+          </SentenceEvent>
+          <ServiceEvent ID="" InternalServiceEventID="5650119" Date="07/11/2016">
+            <ServiceEventType Word="SUM">Summons</ServiceEventType><IssueDate>07/11/2016</IssueDate>
+            <Deleted>
+              False
+            </Deleted>
+            <TimestampCreate>07/11/2016 17:00:35:253</TimestampCreate>
+            <Service ID="">
+              <Party ID="" InternalPartyID="1277290">
+                <PartyName>TestGan2, TestLeo2</PartyName><PartyConnection Word="PAR">Parent</PartyConnection>
+              </Party>
+              <PersonToServe>TestGan2, TestLeo2</PersonToServe>
+              <Deleted>
+                False
+              </Deleted>
+              <TimestampCreate>07/11/2016 17:00:40</TimestampCreate>
+            </Service>
+          </ServiceEvent>
+          <ServiceEvent ID="" InternalServiceEventID="5650120" Date="07/11/2016">
+            <ServiceEventType Word="SUM">Summons</ServiceEventType><IssueDate>07/11/2016</IssueDate>
+            <Deleted>
+              False
+            </Deleted>
+            <TimestampCreate>07/11/2016 17:01:30:410</TimestampCreate>
+            <Service ID="">
+              <Party ID="" InternalPartyID="1277289">
+                <PartyName>TestGan, TestLeo</PartyName>
+                <PartyConnection Word="MIND">Minor - Delinquency</PartyConnection>
+              </Party>
+              <PersonToServe>TestGan, TestLeo</PersonToServe>
+              <Deleted>
+                False
+              </Deleted>
+              <TimestampCreate>07/11/2016 17:01:30</TimestampCreate>
+            </Service>
+          </ServiceEvent>
+          <CaseParty InternalCasePartyID="1082146" InternalPartyID="1">
+            <SendNotice>true</SendNotice><RestrictView>false</RestrictView>
+            <Connection Word="PLA" BaseConnection="PL" InternalCasePartyConnectionID="1082500">
+              <Description>Plaintiff</Description><TimestampCreate>7/11/2016 2:11:42 PM</TimestampCreate>
+              <DateAdded>07/11/2016</DateAdded>
+            </Connection>
+            <CasePartyName Current="true" InternalNameID="1" /><TimestampCreate>7/11/2016 2:11:42 PM</TimestampCreate>
+          </CaseParty>
+          <CaseParty InternalCasePartyID="1082147" InternalPartyID="1277289">
+            <SendNotice>false</SendNotice><RestrictView>false</RestrictView>
+            <Connection Word="MIND" BaseConnection="DF" InternalCasePartyConnectionID="1082501">
+              <Description>Minor - Delinquency</Description><TimestampCreate>7/11/2016 2:11:42 PM</TimestampCreate>
+              <DateAdded>07/11/2016</DateAdded>
+            </Connection>
+            <CasePartyName Current="true" InternalNameID="2354571" />
+            <TimestampCreate>7/11/2016 2:11:42 PM</TimestampCreate>
+          </CaseParty>
+          <CaseParty InternalCasePartyID="1082148" InternalPartyID="1277290">
+            <SendNotice>true</SendNotice><RestrictView>false</RestrictView>
+            <Connection Word="PAR" BaseConnection="GD" InternalCasePartyConnectionID="1082502">
+              <Description>Parent</Description><TimestampCreate>7/11/2016 2:11:42 PM</TimestampCreate>
+              <DateAdded>07/11/2016</DateAdded>
+            </Connection>
+            <CasePartyName Current="true" InternalNameID="2354572" />
+            <TimestampCreate>7/11/2016 2:11:42 PM</TimestampCreate>
+          </CaseParty>
+          <Charge ID="" PartyID="" InternalChargeID="22" InternalPartyID="1277289" xmlns:reslib="urn:reslib">
+            <ChargeOffenseDate>07/04/2016</ChargeOffenseDate><DateOnOrAbout>false</DateOnOrAbout>
+            <TimeAtOrAbout>false</TimeAtOrAbout><Nondisclosed>false</Nondisclosed>
+            <ChargeHistory ChargeHistoryID="" Stage="Case Filing" FilingSequence="1" InternalOffenseHistoryID="42">
+              <ChargeNumber>003</ChargeNumber><Jurisdiction Word="AZ">Azusa</Jurisdiction>
+              <TimestampCreate>07/11/2016 14:11:42:190</TimestampCreate>
+              <ChargeOffenseDate deprecated="true">07/04/2016</ChargeOffenseDate>
+              <DateOnOrAbout deprecated="true">false</DateOnOrAbout>
+              <TimeAtOrAbout deprecated="true">false</TimeAtOrAbout><FineAmount>35</FineAmount>
+              <Statute>
+                <StatuteNumber>103.311(B)</StatuteNumber>
+                <StatuteDescription>2Nd Hnd Dealer W/O Permit</StatuteDescription>
+                <StatuteCode Word="LA103.311(B)" InternalCodeID="47425">2Nd Hnd Dealer W/O Permit</StatuteCode>
+                <LegacyReferenceID>LA103.311(B)-I</LegacyReferenceID><Degree Word="I">Infraction</Degree>
+              </Statute>
+              <Deleted>false</Deleted>
+            </ChargeHistory>
+            <ChargeHistory ChargeHistoryID="" Stage="Disposition Event" DispositionEventSequence="1"
+                           CurrentCharge="true" InternalOffenseHistoryID="49">
+              <ChargeNumber>003</ChargeNumber><Jurisdiction Word="AZ">Azusa</Jurisdiction>
+              <TimestampCreate>07/11/2016 16:18:35:683</TimestampCreate>
+              <ChargeOffenseDate deprecated="true">07/04/2016</ChargeOffenseDate>
+              <DateOnOrAbout deprecated="true">false</DateOnOrAbout>
+              <TimeAtOrAbout deprecated="true">false</TimeAtOrAbout><FineAmount>35</FineAmount>
+              <Statute>
+                <StatuteNumber>103.311(B)</StatuteNumber>
+                <StatuteDescription>2Nd Hnd Dealer W/O Permit</StatuteDescription>
+                <StatuteCode Word="LA103.311(B)" InternalCodeID="47425">2Nd Hnd Dealer W/O Permit</StatuteCode>
+                <LegacyReferenceID>LA103.311(B)-I</LegacyReferenceID><Degree Word="I">Infraction</Degree>
+              </Statute>
+              <Deleted>false</Deleted>
+            </ChargeHistory>
+            <Deleted>false</Deleted>
+          </Charge>
+          <Charge Op="E" ID="" PartyID="" InternalChargeID="23" InternalPartyID="1277289" xmlns:reslib="urn:reslib">
+            <ChargeOffenseDate>07/06/2016</ChargeOffenseDate><DateOnOrAbout>false</DateOnOrAbout>
+            <TimeAtOrAbout>false</TimeAtOrAbout><Nondisclosed>false</Nondisclosed>
+            <ChargeHistory ChargeHistoryID="" Stage="Case Filing" FilingSequence="1" InternalOffenseHistoryID="43">
+              <ChargeNumber>004</ChargeNumber><Jurisdiction Word="ARC">Arcadia</Jurisdiction>
+              <TimestampCreate>07/11/2016 14:11:42:237</TimestampCreate>
+              <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+              <DateOnOrAbout deprecated="true">false</DateOnOrAbout>
+              <TimeAtOrAbout deprecated="true">false</TimeAtOrAbout><ChargeFilingDate>07/06/2016</ChargeFilingDate>
+              <FineAmount>75</FineAmount>
+              <Statute>
+                <StatuteNumber>9.28.011(A)</StatuteNumber><StatuteDescription>30 Minutes Limit</StatuteDescription>
+                <StatuteCode Word="PD9.28.011(A)" InternalCodeID="60333">30 Minutes Limit</StatuteCode>
+                <LegacyReferenceID>PD9.28.011(A)-M</LegacyReferenceID><Degree Word="M">Misdemeanor</Degree>
+              </Statute>
+              <Deleted>false</Deleted>
+            </ChargeHistory>
+            <ChargeHistory Op="A" ChargeHistoryID="" Stage="Warrant Issued" WarrantEventSequence="1"
+                           InternalOffenseHistoryID="53">
+              <ChargeNumber Op="A">004</ChargeNumber><Jurisdiction Op="A" Word="ARC">Arcadia</Jurisdiction>
+              <TimestampCreate Op="A">07/11/2016 17:04:08:203</TimestampCreate>
+              <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+              <DateOnOrAbout deprecated="true">false</DateOnOrAbout>
+              <TimeAtOrAbout deprecated="true">false</TimeAtOrAbout><GeneralOffenseCode Op="A" Word="" />
+              <FineAmount Op="A">75</FineAmount>
+              <Statute>
+                <StatuteNumber Op="A">9.28.011(A)</StatuteNumber>
+                <StatuteDescription Op="A">30 Minutes Limit</StatuteDescription>
+                <StatuteCode Op="A" Word="PD9.28.011(A)" InternalCodeID="60333">30 Minutes Limit</StatuteCode>
+                <LegacyReferenceID Op="A">PD9.28.011(A)-M</LegacyReferenceID>
+                <Degree Op="A" Word="M">Misdemeanor</Degree>
+              </Statute>
+              <Deleted Op="A">false</Deleted>
+            </ChargeHistory>
+            <ChargeHistory ChargeHistoryID="" Stage="Plea Event" PleaEventSequence="1" CurrentCharge="true"
+                           InternalOffenseHistoryID="51">
+              <ChargeNumber>004</ChargeNumber><Jurisdiction Word="ARC">Arcadia</Jurisdiction>
+              <TimestampCreate>07/11/2016 16:33:18:407</TimestampCreate>
+              <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+              <DateOnOrAbout deprecated="true">false</DateOnOrAbout>
+              <TimeAtOrAbout deprecated="true">false</TimeAtOrAbout><FineAmount>75</FineAmount>
+              <Statute>
+                <StatuteNumber>9.28.011(A)</StatuteNumber><StatuteDescription>30 Minutes Limit</StatuteDescription>
+                <StatuteCode Word="PD9.28.011(A)" InternalCodeID="60333">30 Minutes Limit</StatuteCode>
+                <LegacyReferenceID>PD9.28.011(A)-M</LegacyReferenceID><Degree Word="M">Misdemeanor</Degree>
+              </Statute>
+              <Deleted>false</Deleted>
+            </ChargeHistory>
+            <Deleted>false</Deleted>
+          </Charge>
+          <Charge Op="E" ID="" PartyID="" InternalChargeID="24" InternalPartyID="1277289" xmlns:reslib="urn:reslib">
+            <ChargeOffenseDate>07/06/2016</ChargeOffenseDate><ChargeOffenseTime>5:00 PM</ChargeOffenseTime>
+            <ChargeOffenseEndDate>07/07/2016</ChargeOffenseEndDate><ChargeOffenseEndTime>5:00 PM</ChargeOffenseEndTime>
+            <DateOnOrAbout>false</DateOnOrAbout><TimeAtOrAbout>false</TimeAtOrAbout><Nondisclosed>false</Nondisclosed>
+            <BookingAgency ID="" ChargeHistoryID="">
+              <PartyID /><Agency Word="7202">ALHAMBRA FIRE DEPARTMENT</Agency><ArrestDate>07/05/2016</ArrestDate>
+              <ArrestTime>6:00 PM</ArrestTime><ORI /><ControlNumber>1234</ControlNumber>
+              <OfficerBadgeNumber>4567</OfficerBadgeNumber><OfficerName>MyOfficer1</OfficerName>
+            </BookingAgency>
+            <ReportingAgency ID="">
+              <PartyID /><ControlNumber>654</ControlNumber><Agency Word="7202">ALHAMBRA FIRE DEPARTMENT</Agency><ORI />
+              <OfficerBadgeNumber>357</OfficerBadgeNumber><OfficerName>MyOfficer2</OfficerName>
+            </ReportingAgency>
+            <ChargeHistory ChargeHistoryID="" Stage="Arrest" ArrestSequence="1" InternalOffenseHistoryID="45">
+              <ChargeNumber>045</ChargeNumber><Jurisdiction Word="ALH">Alhambra</Jurisdiction>
+              <TimestampCreate>07/11/2016 14:11:42:280</TimestampCreate>
+              <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+              <ChargeOffenseTime deprecated="true">5:00 PM</ChargeOffenseTime>
+              <ChargeOffenseEndDate deprecated="true">07/07/2016</ChargeOffenseEndDate>
+              <ChargeOffenseEndTime deprecated="true">5:00 PM</ChargeOffenseEndTime>
+              <DateOnOrAbout deprecated="true">false</DateOnOrAbout>
+              <TimeAtOrAbout deprecated="true">false</TimeAtOrAbout><FineAmount>250</FineAmount>
+              <BondAmount>66</BondAmount><BondType Word="FUG">Fugitive Bond</BondType>
+              <Statute>
+                <StatuteNumber>9.20.012</StatuteNumber><StatuteDescription>10 P.M. Curfew</StatuteDescription>
+                <StatuteCode Word="DU9.20.012" InternalCodeID="41301">10 P.M. Curfew</StatuteCode>
+                <LegacyReferenceID>DU9.20.012-M</LegacyReferenceID><Degree Word="M">Misdemeanor</Degree>
+              </Statute>
+              <ArrestPhaseDate>7/5/2016</ArrestPhaseDate><Deleted>false</Deleted>
+            </ChargeHistory>
+            <ChargeHistory ChargeHistoryID="" Stage="Case Filing" FilingSequence="1" InternalOffenseHistoryID="44">
+              <ChargeNumber>045</ChargeNumber><Jurisdiction Word="ALH">Alhambra</Jurisdiction>
+              <TimestampCreate>07/11/2016 14:11:42:267</TimestampCreate>
+              <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+              <ChargeOffenseTime deprecated="true">5:00 PM</ChargeOffenseTime>
+              <ChargeOffenseEndDate deprecated="true">07/07/2016</ChargeOffenseEndDate>
+              <ChargeOffenseEndTime deprecated="true">5:00 PM</ChargeOffenseEndTime>
+              <DateOnOrAbout deprecated="true">false</DateOnOrAbout>
+              <TimeAtOrAbout deprecated="true">false</TimeAtOrAbout><FineAmount>250</FineAmount>
+              <BondAmount>66</BondAmount><BondType Word="FUG">Fugitive Bond</BondType>
+              <Statute>
+                <StatuteNumber>9.20.012</StatuteNumber><StatuteDescription>10 P.M. Curfew</StatuteDescription>
+                <StatuteCode Word="DU9.20.012" InternalCodeID="41301">10 P.M. Curfew</StatuteCode>
+                <LegacyReferenceID>DU9.20.012-M</LegacyReferenceID><Degree Word="M">Misdemeanor</Degree>
+              </Statute>
+              <Deleted>false</Deleted>
+            </ChargeHistory>
+            <ChargeHistory Op="A" ChargeHistoryID="" Stage="Warrant Issued" WarrantEventSequence="1"
+                           InternalOffenseHistoryID="54">
+              <ChargeNumber Op="A">045</ChargeNumber><Jurisdiction Op="A" Word="ALH">Alhambra</Jurisdiction>
+              <TimestampCreate Op="A">07/11/2016 17:04:08:227</TimestampCreate>
+              <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+              <ChargeOffenseTime deprecated="true">5:00 PM</ChargeOffenseTime>
+              <ChargeOffenseEndDate deprecated="true">07/07/2016</ChargeOffenseEndDate>
+              <ChargeOffenseEndTime deprecated="true">5:00 PM</ChargeOffenseEndTime>
+              <DateOnOrAbout deprecated="true">false</DateOnOrAbout>
+              <TimeAtOrAbout deprecated="true">false</TimeAtOrAbout><GeneralOffenseCode Op="A" Word="" />
+              <FineAmount Op="A">250</FineAmount><BondAmount Op="A">66</BondAmount>
+              <BondType Op="A" Word="FUG">Fugitive Bond</BondType>
+              <Statute>
+                <StatuteNumber Op="A">9.20.012</StatuteNumber>
+                <StatuteDescription Op="A">10 P.M. Curfew</StatuteDescription>
+                <StatuteCode Op="A" Word="DU9.20.012" InternalCodeID="41301">10 P.M. Curfew</StatuteCode>
+                <LegacyReferenceID Op="A">DU9.20.012-M</LegacyReferenceID><Degree Op="A" Word="M">Misdemeanor</Degree>
+              </Statute>
+              <Deleted Op="A">false</Deleted>
+            </ChargeHistory>
+            <ChargeHistory ChargeHistoryID="" Stage="Plea Event" PleaEventSequence="1" CurrentCharge="true"
+                           InternalOffenseHistoryID="52">
+              <ChargeNumber>045</ChargeNumber><Jurisdiction Word="ALH">Alhambra</Jurisdiction>
+              <TimestampCreate>07/11/2016 16:33:18:433</TimestampCreate>
+              <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+              <ChargeOffenseTime deprecated="true">5:00 PM</ChargeOffenseTime>
+              <ChargeOffenseEndDate deprecated="true">07/07/2016</ChargeOffenseEndDate>
+              <ChargeOffenseEndTime deprecated="true">5:00 PM</ChargeOffenseEndTime>
+              <DateOnOrAbout deprecated="true">false</DateOnOrAbout>
+              <TimeAtOrAbout deprecated="true">false</TimeAtOrAbout><FineAmount>250</FineAmount>
+              <BondAmount>66</BondAmount><BondType Word="FUG">Fugitive Bond</BondType>
+              <Statute>
+                <StatuteNumber>9.20.012</StatuteNumber><StatuteDescription>10 P.M. Curfew</StatuteDescription>
+                <StatuteCode Word="DU9.20.012" InternalCodeID="41301">10 P.M. Curfew</StatuteCode>
+                <LegacyReferenceID>DU9.20.012-M</LegacyReferenceID><Degree Word="M">Misdemeanor</Degree>
+              </Statute>
+              <Deleted>false</Deleted>
+            </ChargeHistory>
+            <Deleted>false</Deleted>
+          </Charge>
+          <Charge Op="E" ID="" PartyID="" InternalChargeID="25" InternalPartyID="1277289" xmlns:reslib="urn:reslib">
+            <ChargeOffenseDate>07/06/2016</ChargeOffenseDate><ChargeOffenseTime>7:00 AM</ChargeOffenseTime>
+            <ChargeOffenseEndDate>07/06/2016</ChargeOffenseEndDate><ChargeOffenseEndTime>8:00 AM</ChargeOffenseEndTime>
+            <DateOnOrAbout>true</DateOnOrAbout><TimeAtOrAbout>true</TimeAtOrAbout><Nondisclosed>false</Nondisclosed>
+            <BookingAgency ID="" ChargeHistoryID="">
+              <PartyID /><Agency Word="7202">ALHAMBRA FIRE DEPARTMENT</Agency><ArrestDate>07/05/2016</ArrestDate>
+              <ArrestTime>6:00 PM</ArrestTime><ORI /><ControlNumber>1234</ControlNumber>
+              <OfficerBadgeNumber>4567</OfficerBadgeNumber><OfficerName>MyOfficer1</OfficerName>
+            </BookingAgency>
+            <ReportingAgency ID="">
+              <PartyID /><ControlNumber>654</ControlNumber><Agency Word="7202">ALHAMBRA FIRE DEPARTMENT</Agency><ORI />
+              <OfficerBadgeNumber>357</OfficerBadgeNumber><OfficerName>MyOfficer2</OfficerName>
+            </ReportingAgency>
+            <ChargeHistory ChargeHistoryID="" Stage="Arrest" ArrestSequence="1" InternalOffenseHistoryID="47">
+              <ChargeNumber>456</ChargeNumber><Jurisdiction Word="AGH">Agoura Hills</Jurisdiction>
+              <TimestampCreate>07/11/2016 14:11:42:323</TimestampCreate>
+              <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+              <ChargeOffenseTime deprecated="true">7:00 AM</ChargeOffenseTime>
+              <ChargeOffenseEndDate deprecated="true">07/06/2016</ChargeOffenseEndDate>
+              <ChargeOffenseEndTime deprecated="true">8:00 AM</ChargeOffenseEndTime>
+              <DateOnOrAbout deprecated="true">true</DateOnOrAbout>
+              <TimeAtOrAbout deprecated="true">true</TimeAtOrAbout>
+              <GeneralOffenseCode Word="E">Enhancement</GeneralOffenseCode><FineAmount>250</FineAmount>
+              <BondAmount>45</BondAmount><BondType Word="AB">Appeal Bond</BondType>
+              <Statute>
+                <StatuteNumber>5-4</StatuteNumber>
+                <StatuteDescription># Of Dogs Permited In Residenc</StatuteDescription>
+                <StatuteCode Word="CY5-4" InternalCodeID="40342"># Of Dogs Permited In Residenc</StatuteCode>
+                <LegacyReferenceID>CY5-4-M</LegacyReferenceID><Degree Word="M">Misdemeanor</Degree>
+              </Statute>
+              <ArrestPhaseDate>7/5/2016</ArrestPhaseDate><Deleted>false</Deleted>
+            </ChargeHistory>
+            <ChargeHistory ChargeHistoryID="" Stage="Case Filing" FilingSequence="1" InternalOffenseHistoryID="46">
+              <ChargeNumber>456</ChargeNumber><Jurisdiction Word="AGH">Agoura Hills</Jurisdiction>
+              <TimestampCreate>07/11/2016 14:11:42:307</TimestampCreate>
+              <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+              <ChargeOffenseTime deprecated="true">7:00 AM</ChargeOffenseTime>
+              <ChargeOffenseEndDate deprecated="true">07/06/2016</ChargeOffenseEndDate>
+              <ChargeOffenseEndTime deprecated="true">8:00 AM</ChargeOffenseEndTime>
+              <DateOnOrAbout deprecated="true">true</DateOnOrAbout>
+              <TimeAtOrAbout deprecated="true">true</TimeAtOrAbout>
+              <GeneralOffenseCode Word="E">Enhancement</GeneralOffenseCode><FineAmount>250</FineAmount>
+              <BondAmount>45</BondAmount><BondType Word="AB">Appeal Bond</BondType>
+              <Statute>
+                <StatuteNumber>5-4</StatuteNumber>
+                <StatuteDescription># Of Dogs Permited In Residenc</StatuteDescription>
+                <StatuteCode Word="CY5-4" InternalCodeID="40342"># Of Dogs Permited In Residenc</StatuteCode>
+                <LegacyReferenceID>CY5-4-M</LegacyReferenceID><Degree Word="M">Misdemeanor</Degree>
+              </Statute>
+              <Deleted>false</Deleted>
+            </ChargeHistory>
+            <ChargeHistory Op="A" ChargeHistoryID="" Stage="Warrant Issued" WarrantEventSequence="1"
+                           InternalOffenseHistoryID="55">
+              <ChargeNumber Op="A">456</ChargeNumber><Jurisdiction Op="A" Word="AGH">Agoura Hills</Jurisdiction>
+              <TimestampCreate Op="A">07/11/2016 17:04:08:247</TimestampCreate>
+              <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+              <ChargeOffenseTime deprecated="true">7:00 AM</ChargeOffenseTime>
+              <ChargeOffenseEndDate deprecated="true">07/06/2016</ChargeOffenseEndDate>
+              <ChargeOffenseEndTime deprecated="true">8:00 AM</ChargeOffenseEndTime>
+              <DateOnOrAbout deprecated="true">true</DateOnOrAbout>
+              <TimeAtOrAbout deprecated="true">true</TimeAtOrAbout>
+              <GeneralOffenseCode Op="A" Word="E">Enhancement</GeneralOffenseCode><FineAmount Op="A">250</FineAmount>
+              <BondAmount Op="A">45</BondAmount><BondType Op="A" Word="AB">Appeal Bond</BondType>
+              <Statute>
+                <StatuteNumber Op="A">5-4</StatuteNumber>
+                <StatuteDescription Op="A"># Of Dogs Permited In Residenc</StatuteDescription>
+                <StatuteCode Op="A" Word="CY5-4" InternalCodeID="40342"># Of Dogs Permited In Residenc</StatuteCode>
+                <LegacyReferenceID Op="A">CY5-4-M</LegacyReferenceID><Degree Op="A" Word="M">Misdemeanor</Degree>
+              </Statute>
+              <Deleted Op="A">false</Deleted>
+            </ChargeHistory>
+            <ChargeHistory ChargeHistoryID="" Stage="Disposition Event" DispositionEventSequence="1"
+                           CurrentCharge="true" InternalOffenseHistoryID="50">
+              <ChargeNumber>456</ChargeNumber><Jurisdiction Word="AGH">Agoura Hills</Jurisdiction>
+              <TimestampCreate>07/11/2016 16:29:29:443</TimestampCreate>
+              <ChargeOffenseDate deprecated="true">07/06/2016</ChargeOffenseDate>
+              <ChargeOffenseTime deprecated="true">7:00 AM</ChargeOffenseTime>
+              <ChargeOffenseEndDate deprecated="true">07/06/2016</ChargeOffenseEndDate>
+              <ChargeOffenseEndTime deprecated="true">8:00 AM</ChargeOffenseEndTime>
+              <DateOnOrAbout deprecated="true">true</DateOnOrAbout>
+              <TimeAtOrAbout deprecated="true">true</TimeAtOrAbout>
+              <GeneralOffenseCode Word="E">Enhancement</GeneralOffenseCode><FineAmount>250</FineAmount>
+              <BondAmount>45</BondAmount><BondType Word="AB">Appeal Bond</BondType>
+              <Statute>
+                <StatuteNumber>5-4</StatuteNumber>
+                <StatuteDescription># Of Dogs Permited In Residenc</StatuteDescription>
+                <StatuteCode Word="CY5-4" InternalCodeID="40342"># Of Dogs Permited In Residenc</StatuteCode>
+                <LegacyReferenceID>CY5-4-M</LegacyReferenceID><Degree Word="M">Misdemeanor</Degree>
+              </Statute>
+              <Deleted>false</Deleted>
+            </ChargeHistory>
+            <Deleted>false</Deleted>
+          </Charge>
+        </Case>
+      </Integration>
+    </IntegrationCondition>
+  </IntegrationConditions>
+</Integration>

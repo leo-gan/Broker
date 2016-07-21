@@ -1,0 +1,21 @@
+{
+	"ListenCycleDelay_msec": 100,
+	"LastLogReportTimestamp": "2016-07-13T14:47:03.2165954-07:00",
+	"IntervalBetweenReports": "00:16:40",
+	"InputEndpointAddress": "C:\\Projects\\CMS\\Integration\\JubDelq\\Apps\\Broker\\Broker.Test\\Samples\\Input",
+	"ArchiveAddress":       "C:\\Projects\\CMS\\Integration\\JubDelq\\Apps\\Broker\\Broker.Test\\Samples\\Archive",
+	"LogAddress":           "C:\\Projects\\CMS\\Integration\\JubDelq\\Apps\\Broker\\Broker.Test\\Samples\\Log",
+	"CallAddresses": {
+		"CalendarAddUpdate":                "http://localhost/WebServiceStub/Service.svc", 
+		"PetitionAddUpdate":                "http://localhost/WebServiceStub/Service.svc",
+		"AmendDAChargeDisposition":         "http://localhost/WebServiceStub/Service.svc",
+		"CompanionAddUpdate":               "http://localhost/WebServiceStub/Service.svc",
+		"MinuteOrderAdd":                   "http://localhost/WebServiceStub/Service.svc",
+		"MinuteOrderUpdate":                "http://localhost/WebServiceStub/Service.svc",
+		"CurrentConditionsOfProbation":     "http://localhost/WebServiceStub/Service.svc",
+		"MinuteOrderProbationConditions":   "http://localhost/WebServiceStub/Service.svc",
+		"COPSInitialEvent":                 "http://localhost/WebServiceStub/Service.svc",
+		"COPSInitialAllegations":           "http://localhost/WebServiceStub/Service.svc",
+		"WarrantAddUpdate":                 "http://localhost/WebServiceStub/Service.svc",
+	}
+}

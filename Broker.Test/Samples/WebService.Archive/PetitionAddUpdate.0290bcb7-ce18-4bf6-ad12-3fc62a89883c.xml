@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CallRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Operation>PetitionAddUpdate</Operation>
+  <Fields>
+    <Field>
+      <Name>fj_petn_cno</Name>
+      <Value>16LJJD00005A</Value>
+    </Field>
+    <Field>
+      <Name>fj_petn_pdt</Name>
+      <Value>07/11/2016</Value>
+    </Field>
+    <Field>
+      <Name>fj_petn_sct</Name>
+      <Value>Delinquency Original</Value>
+    </Field>
+    <Field>
+      <Name>fj_petn_cpn</Name>
+    </Field>
+    <Field>
+      <Name>fj_arrt_dcn</Name>
+    </Field>
+    <Field>
+      <Name>fj_arrt_bnu</Name>
+    </Field>
+    <Field>
+      <Name>fj_arrt_aoa</Name>
+      <Value>ALHAMBRA FIRE DEPARTMENT</Value>
+    </Field>
+    <Field>
+      <Name>fj_arrt_arn</Name>
+      <Value>1234</Value>
+    </Field>
+    <Field>
+      <Name>fj_arrt_cdt</Name>
+      <Value>07/05/2016</Value>
+    </Field>
+    <Field>
+      <Name>fj_arrt_ctm</Name>
+      <Value>6:00 PM</Value>
+    </Field>
+  </Fields>
+</CallRequest>

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75BB53CD-7F0A-4AA4-BD5C-ED9CA29FA08A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Broker.Test</RootNamespace>
+    <AssemblyName>Broker.Test</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigTest.cs" />
+    <Compile Include="FileManagerTest.cs" />
+    <Compile Include="CallerTest.cs" />
+    <Compile Include="MappingTest.cs" />
+    <Compile Include="ProcessorTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Broker\Broker.csproj">
+      <Project>{f93dd600-33d6-4fb0-b87a-8098671b5d76}</Project>
+      <Name>Broker</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Contracts\Contracts.csproj">
+      <Project>{a992cba9-0ed3-42e3-ba72-29c1246f5d25}</Project>
+      <Name>Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="Samples\DoNotChange\Tst-SAVE-CR_All_SAVE-CR-CASE_16LJJD00005A_lganeline-2016-07-11T16-16-37-130.xml" />
+    <Content Include="Samples\DoNotChange\Tst-SAVE-CR_All_SAVE-CR-DISPOSITION_16LJJD00005A_lganeline-2016-07-11T16-29-34-435.xml" />
+    <Content Include="Samples\DoNotChange\Tst-SAVE-CR_All_SAVE-CR-HEAR-CTS_16LJJD00005A_lganeline-2016-07-11T17-10-35-050.xml" />
+    <Content Include="Samples\DoNotChange\Tst-SAVE-CR_All_SAVE-CR-HEAR-CTS_16LJJD00005A_lganeline-2016-07-11T18-35-13-789.xml" />
+    <Content Include="Samples\DoNotChange\Tst-SAVE-CR_All_SAVE-CR-HEAR-CTS_16LJJD00005A_lganeline-2016-07-12T13-40-11-199.xml" />
+    <Content Include="Samples\DoNotChange\Tst-SAVE-CR_All_SAVE-CR-HEARING_16LJJD00005A_lganeline-2016-07-11T16-37-10-260.xml" />
+    <Content Include="Samples\DoNotChange\Tst-SAVE-CR_All_SAVE-CR-HEARING_16LJJD00005A_lganeline-2016-07-12T16-39-01-182.xml" />
+    <Content Include="Samples\DoNotChange\Tst-SAVE-CR_All_SAVE-CR-MINUTES_16LJJD00005A_lganeline-2016-07-11T17-13-22-127.xml" />
+    <Content Include="Samples\DoNotChange\Tst-SAVE-CR_All_SAVE-CR-MINUTES__lganeline-2016-07-12T13-29-24-124.xml" />
+    <Content Include="Samples\DoNotChange\Tst-SAVE-CR_All_SAVE-CR-PLEA_16LJJD00005A_lganeline-2016-07-11T16-33-23-237.xml" />
+    <Content Include="Samples\DoNotChange\Tst-SAVE-CR_All_SAVE-CR-SENTENCE_16LJJD00005A_lganeline-2016-07-11T16-35-00-267.xml" />
+    <Content Include="Samples\DoNotChange\Tst-SAVE-CR_All_SAVE-CR-SERVICE_16LJJD00005A_lganeline-2016-07-11T17-00-49-309.xml" />
+    <Content Include="Samples\DoNotChange\Tst-SAVE-CR_All_SAVE-CR-SERVICE_16LJJD00005A_lganeline-2016-07-11T17-01-34-845.xml" />
+    <Content Include="Samples\DoNotChange\Tst-SAVE-CR_All_SAVE-CR-TRANS_16LJJD00005A_lganeline-2016-07-11T17-16-31-844.xml" />
+    <Content Include="Samples\DoNotChange\Tst-SAVE-CR_All_SAVE-CR-WARRANT_16LJJD00005A_lganeline-2016-07-11T17-04-15-709.xml" />
+    <Resource Include="config.mappings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <None Include="app.config" />
+    <Resource Include="config.writable.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Samples\Archive\" />
+    <Folder Include="Samples\Empty\" />
+    <Folder Include="Samples\Input\" />
+    <Folder Include="Samples\Log\" />
+    <Folder Include="Samples\WebService.Archive\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
